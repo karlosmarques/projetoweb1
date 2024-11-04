@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="imagens/logo/HernaneBrocador.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="pereirinha">
+            <h1>Thebrocastore</h1>
+        </div>
+        
+</header>
+<main >
+<article>
+    <h1>Login</h1>
+    <input id="login" type="text" placeholder="email"> 
+    <br> <br>
+    <input id="senha" type="text" placeholder="senha">
+    <br> <br>
+    <a href="telaInicial.html"><input class="botão" type="submit" onclick="logar(); 
+    return false"></a>
+
+    <a href="criarconta.html"><input class="botão" type="button" value="Registro"></a>
+</article>
+</main>
+<script>
+    function logar(){
+        var login =  document.getElementById('login').value;
+        var senha = document.getElementById('senha').value;
+
+        if(login =='admin' && senha =='admin'){
+            alert('logado com sucesso!');
+            location.href = 'telainicial.html'
+        }
+        else{
+            alert('Usuario ou senha incorretos!');
+        }
+    }
+</script>
+</body>
+</html>

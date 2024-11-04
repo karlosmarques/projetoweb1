@@ -1,0 +1,95 @@
+
+body{
+    background-color:#EBEBEB ;
+    
+}
+header{
+    font-family: "New Amsterdam", sans-serif;
+    position: fixed;
+    display: flex;
+    height: 5%;
+    width: 100%;
+    margin-top: -15px;
+    text-align: center;
+    background-color:#222222;
+    color: white;
+    margin-left: -9px;
+    margin-right: -9px;
+    padding: 10px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    
+}
+.pereirinha{
+    color: white;
+    margin: 0px 50px;
+    display: flex;
+    width: 37%;
+   text-decoration: none;
+
+}
+
+
+.rosendinha{
+    margin: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pc{
+    margin-right: 10px;
+}
+.cubomaior{
+    display: flex;
+    justify-content: center;
+}
+.placa{
+    font-family: "Chakra Petch", sans-serif;;
+    width:1300px ;
+    height: 600px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin-top: 120px;
+}
+.textplaca{
+    font-size: medium;
+    width: 500px;
+    height: 550px;
+    background-color: #2D2D2D;
+    border-radius: 20px;
+    padding: 18px; 
+    color: white; 
+
+}
+.buttonplaca{
+    margin-top: 10px;
+    background-color: #73C300;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    padding: 20px;
+}
+.buttonplaca:hover{
+    transition: 0.2s ease-in-out;
+    background-color: rgb(6, 126, 2);
+    cursor: pointer;
+}
+.cubofooter{
+    color: white;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    width: 100%;
+    background: #121212;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}

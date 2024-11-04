@@ -1,0 +1,214 @@
+
+body{background-color: #EBEBEB;
+
+}
+.placadevideo{
+    font-family: "Chakra Petch", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+header{
+    font-family: "New Amsterdam", sans-serif;;
+    position: fixed;
+    display: flex;
+    height: 5%;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: -30px;
+    text-align: center;
+    background-color: #222222;
+    color: #FFFFFF;
+    margin-left: -9px;
+    margin-right: -9px;
+    padding: 10px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+.pereirinha{
+    display: flex;
+}
+.rosendinha{
+    margin: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pc{
+    margin-right: 10px;
+    
+}
+.pv{
+    text-align: center;
+}
+.rtx4060ti{
+    display: flex;
+    width: 300px;
+    height: 350px;
+    background-color:#FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-left: 30px;
+    justify-content: flex-end;
+}
+.buttonrtx4060ti:hover{
+    cursor: pointer;
+    padding: 1px;
+}
+.rtx3060{
+    width: 300px;
+    height:350px;
+    background-color: #FFFFFF;
+    display: flex;
+    margin-left: 30px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+.buttonrtx3060:hover{
+    cursor: pointer;
+    padding: 1px;
+}
+.rtx4070{
+    width: 300px;
+    height: 350px;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.buttonrtx4070:hover{
+    cursor: pointer;
+    padding: 1px;
+}
+.rx7700{
+    width: 300px;
+    height: 350px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.buttonrx7700:hover{
+    cursor: pointer;
+    padding: 1px;
+}
+.placamae{
+    display: flex;
+    justify-content: center;
+    font-family: "Chakra Petch", sans-serif;
+}
+.pm{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.b550m{
+    width: 300px;
+    height: 350px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 30px;
+}
+.buttonb550m:hover{
+    cursor: pointer;
+    padding: 1px;
+}
+.b650m{
+    width: 300px;
+    height: 350px;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding:10px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.buttonb650m:hover{
+    cursor: pointer;
+    padding: 1px;
+}
+.b650m-f{
+    width: 300px;
+    height: 350px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.buttonb650m-f:hover{
+    cursor: pointer;
+    padding: 1px;
+}
+.z790{
+    width: 300px;
+    height: 350px;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.propaganda{
+    text-align: center;
+    display: flex;
+    position: fixed;
+    top: 70%;
+    left: 90%;
+    width: 180px;
+    height: 140px;
+   border-radius: 100%;
+   background-color:#73C300;
+   margin-bottom: 30%;
+   align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 1px 1px black;
+    cursor: pointer;
+}
+.preçopro{
+    margin-top: -2px;
+    color: rgb(0, 0, 0);
+}
+.propaganda:hover{
+    background-color: rgb(70, 66, 60);
+    transition: 1s;
+}
+.cubofooter{
+    color: white;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    width: 100%;
+    background: #121212;
+    margin-top: 20px;
+    position: absolute;
+    left: 0  
+}
+
